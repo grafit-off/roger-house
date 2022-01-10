@@ -1,0 +1,37 @@
+// Fonts
+@mixin font-face($font-family, $url, $weight, $style) {
+	@font-face {
+		font-family: "#{$font-family}";
+		src: url("../fonts/#{$url}.woff2") format("woff2"), url("../fonts/#{$url}.woff") format("woff");
+		font-weight: #{$weight};
+		font-display: swap;
+		font-style: $style;
+	}
+}
+
+// MediaQuerys
+@mixin maxwidth($maxWidth) {
+	$length: $maxWidth + px;
+	@media (max-width: $length) {
+		@content;
+	}
+}
+@mixin minwidth($minWidth) {
+	$length: $minWidth + px;
+	@media (min-width: $length) {
+		@content;
+	}
+}
+
+@mixin scrollBar($bg-color, $color, $scrollbarWidth, $radius) {
+	&::-webkit-scrollbar {
+		width: $scrollbarWidth;
+		height: 8px;
+		background-color: $bg-color;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: $color;
+		border-radius: $radius;
+	}
+}
