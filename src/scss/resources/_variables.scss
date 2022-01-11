@@ -3,6 +3,7 @@
 	--color-font: #000;
 	--color-black: #000;
 	--color-sage: #9ea080;
+	--color-white: #fff;
 }
 
 $fz-text: 18px;
@@ -14,7 +15,7 @@ $minWidth: 320;
 $maxWidth: 1440px; // Разрешение макета
 $maxWidthContainer: 1164px; // Разрешение контейнера
 
-$md1: $maxWidthContainer + 15px; //desktop
+$md1: $maxWidthContainer + 40px; //desktop
 $md2: 991.98px; // Tablet
 $md3: 767.98px; // Mobile #1
 $md4: 479.98px; // Mobile #2

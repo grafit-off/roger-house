@@ -1,0 +1,46 @@
+.title {
+	display: block;
+	width: 100%;
+
+	color: var(--color-font);
+
+	font-size: 175px;
+	letter-spacing: -20px;
+	text-transform: uppercase;
+	text-align: center;
+
+	@media (max-width: $md1) {
+		font-size: 100px;
+		letter-spacing: -10px;
+	}
+	@media (max-width: $md3) {
+		font-size: 70px;
+		letter-spacing: 2px;
+	}
+	&__letter {
+		color: var(--color-sage);
+
+		font-size: 200px;
+
+		@media (max-width: $md1) {
+			font-size: 140px;
+		}
+		@media (max-width: $md3) {
+			font-size: 75px;
+		}
+		&--double {
+			position: relative;
+			z-index: 0;
+			&::before {
+				content: "o";
+				position: absolute;
+				left: 0;
+				bottom: 0;
+
+				color: var(--color-white);
+
+				text-transform: lowercase;
+			}
+		}
+	}
+}

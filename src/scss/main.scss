@@ -23,14 +23,16 @@
 //? Hero
 @import "partials/hero/_hero.scss";
 
+//? About
+@import "partials/about/_about.scss";
+
 //? Footer
 @import "partials/footer/_footer.scss";
 //* -- //
 
 //* Components
-@import "partials/common/_main-heading.scss";
-@import "partials/common/_main-text.scss";
 @import "partials/common/_image-title.scss";
 @import "partials/common/_burger.scss";
+@import "partials/common/_title.scss";
 //* -- //
 // -- //
