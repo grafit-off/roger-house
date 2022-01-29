@@ -26,12 +26,17 @@
 //? About
 @import "partials/about/_about.scss";
 
+//? Work
+@import "partials/work/_work.scss";
+@import "partials/work/components/_work-info.scss";
+
 //? Footer
 @import "partials/footer/_footer.scss";
 //* -- //
 
 //* Components
 @import "partials/common/_main-heading.scss";
+@import "partials/common/_main-link.scss";
 @import "partials/common/_image-title.scss";
 @import "partials/common/_burger.scss";
 @import "partials/common/_title.scss";

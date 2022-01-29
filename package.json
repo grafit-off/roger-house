@@ -1,7 +1,6 @@
 {
-	"name": "GRAFIT-OFF Gulp",
+	"name": "GRAFIT-OFF_Gulp",
 	"version": "1.0.0",
-	"description": "GRAFIT-OFF Gulp",
 	"main": "main.js",
 	"scripts": {
 		"validateHtml": "node-w3c-validator -f html -i app/**/*.html",

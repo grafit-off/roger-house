@@ -97,7 +97,7 @@ const htmlInclude = () => {
 }
 
 const imgToApp = () => {
-	return src(['./src/img/**/*.jpg', './src/img/**/*.png', './src/img/**/*.jpeg', './src/img/**/*.svg', '!src/img/sprites/*.svg'])
+	return src(['./src/img/**/*.jpg', './src/img/**/*.gif', './src/img/**/*.png', './src/img/**/*.jpeg', './src/img/**/*.svg', '!src/img/sprites/*.svg'])
 		.pipe(dest('./app/img'))
 }
 
